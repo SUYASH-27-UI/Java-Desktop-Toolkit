@@ -10,3 +10,4 @@ Topics: java, swing, gui-applications, desktop-apps, oop, java-projects, product
 | **03** | **To-Do List Manager** | Desktop productivity task tracking app. (`DefaultListModel`, `JList`, Event handling) |
 | **04** | **BMI Calculator** | Fitness utility to calculate Body Mass Index. (`JTextField`, Math logic, Status formatting) |
 | **05** | **Password Generator** | Desktop security tool to generate random passwords. (`Random`, Checkboxes, String building) |
+| **06** | **Stopwatch Timer** | Desktop timer utility with start, stop, and reset features. (`JFrame`, `Timer`, State logic) |
