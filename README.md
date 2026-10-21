@@ -12,3 +12,4 @@ Topics: java, swing, gui-applications, desktop-apps, oop, java-projects, product
 | **05** | **Password Generator** | Desktop security tool to generate random passwords. (`Random`, Checkboxes, String building) |
 | **06** | **Stopwatch Timer** | Desktop timer utility with start, stop, and reset features. (`JFrame`, `Timer`, State logic) |
 | **07** | **Temperature Converter** | Desktop utility app to convert temperature values across units. (`JFrame`, `JComboBox`, Math formulas) |
+| **08** | **Bill Splitter** | Financial desktop app to calculate tips and split bills among multiple people. (`JFrame`, Financial math) |
