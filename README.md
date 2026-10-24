@@ -15,3 +15,4 @@ Topics: java, swing, gui-applications, desktop-apps, oop, java-projects, product
 | **08** | **Bill Splitter** | Financial desktop app to calculate tips and split bills among multiple people. (`JFrame`, Financial math) |
 | **09** | **EMI Calculator** | Desktop financial tool to calculate loan EMIs and total interest. (`JFrame`, Financial math) |
 | **10** | **Pomodoro Timer** | Desktop productivity timer for focus work and breaks. (`JFrame`, `Timer`, Time logic) |
+| **11** | **Word Counter** | Desktop text analysis utility to track words, characters, and metrics. (`JFrame`, `KeyAdapter`, String parsing) |
