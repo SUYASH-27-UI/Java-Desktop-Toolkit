@@ -16,3 +16,4 @@ Topics: java, swing, gui-applications, desktop-apps, oop, java-projects, product
 | **09** | **EMI Calculator** | Desktop financial tool to calculate loan EMIs and total interest. (`JFrame`, Financial math) |
 | **10** | **Pomodoro Timer** | Desktop productivity timer for focus work and breaks. (`JFrame`, `Timer`, Time logic) |
 | **11** | **Word Counter** | Desktop text analysis utility to track words, characters, and metrics. (`JFrame`, `KeyAdapter`, String parsing) |
+| **12** | **Dice Roller** | Desktop random number generator and dice rolling utility. (`JFrame`, `Random`, Dropdown selection) |
