@@ -7,7 +7,7 @@ public class BmiCalculatorApp extends JFrame {
 
     public BmiCalculatorApp() {
         setTitle("Smart BMI Calculator");
-        setSize(350, 320);
+        setSize(360, 300);
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         getContentPane().setBackground(new Color(30, 30, 30));
         setLayout(new GridBagLayout());
@@ -34,13 +34,15 @@ public class BmiCalculatorApp extends JFrame {
         JButton calcBtn = new JButton("Calculate BMI");
         calcBtn.setBackground(new Color(76, 175, 80));
         calcBtn.setForeground(Color.WHITE);
+        calcBtn.setFont(new Font("Arial", Font.BOLD, 10));
+        calcBtn.setFocusPainted(false);
         gbc.gridx = 0; gbc.gridy = 3; gbc.gridwidth = 2;
         calcBtn.addActionListener(e -> calculateBmi());
         add(calcBtn, gbc);
 
-        resultLabel = new JLabel("Enter your metrics above", JLabel.CENTER);
+        resultLabel = new JLabel("BMI: --", JLabel.CENTER);
         resultLabel.setForeground(Color.WHITE);
-        resultLabel.setFont(new Font("Arial", Font.BOLD, 11));
+        resultLabel.setFont(new Font("Courier New", Font.BOLD, 12));
         gbc.gridy = 4;
         add(resultLabel, gbc);
 
@@ -56,10 +58,23 @@ public class BmiCalculatorApp extends JFrame {
 
     private void calculateBmi() {
         try {
-            double w = Double.parseDouble(weightField.getText());
-            double h = Double.parseDouble(heightField.getText()) / 100.0;
-            double bmi = w / (h * h);
-            String status = bmi < 18.5 ? "Underweight" : bmi < 25 ? "Normal Weight" : "Overweight";
+            double weight = Double.parseDouble(weightField.getText().trim());
+            double heightCm = Double.parseDouble(heightField.getText().trim());
+
+            if (heightCm <= 0 || weight <= 0) {
+                resultLabel.setText("Values must be greater than zero");
+                return;
+            }
+
+            double heightM = heightCm / 100.0;
+            double bmi = weight / (heightM * heightM);
+
+            String status = "";
+            if (bmi < 18.5) status = "Underweight";
+            else if (bmi < 25.0) status = "Normal Weight";
+            else if (bmi < 30.0) status = "Overweight";
+            else status = "Obese";
+
             resultLabel.setText(String.format("BMI: %.2f (%s)", bmi, status));
         } catch (Exception ex) {
             resultLabel.setText("Invalid input numbers!");
