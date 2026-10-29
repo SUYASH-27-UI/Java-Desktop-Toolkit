@@ -20,3 +20,4 @@ Topics: java, swing, gui-applications, desktop-apps, oop, java-projects, product
 | **13** | **RGB to Hex Converter** | Developer utility tool to convert RGB color codes to Hex with live preview. (`JFrame`, `Color`, Formatting) |
 | **14** | **Quick Notepad** | Desktop mini text editor with file save and open operations. (`JFrame`, `JFileChooser`, File I/O) |
 | **15** | **Unit Converter** | Desktop utility app to convert lengths across multiple units. (`JFrame`, `JComboBox`, Scaling math) |
+| **16** | **BMI Calculator** | Fitness desktop utility to calculate Body Mass Index and health status. (`JFrame`, Math logic) |
