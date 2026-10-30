@@ -21,3 +21,4 @@ Topics: java, swing, gui-applications, desktop-apps, oop, java-projects, product
 | **14** | **Quick Notepad** | Desktop mini text editor with file save and open operations. (`JFrame`, `JFileChooser`, File I/O) |
 | **15** | **Unit Converter** | Desktop utility app to convert lengths across multiple units. (`JFrame`, `JComboBox`, Scaling math) |
 | **16** | **BMI Calculator** | Fitness desktop utility to calculate Body Mass Index and health status. (`JFrame`, Math logic) |
+| **17** | **Quote Generator** | Desktop GUI app that displays random inspirational tech quotes. (`JFrame`, `Random`, UI card layout) |
