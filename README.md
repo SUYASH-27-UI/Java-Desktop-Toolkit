@@ -24,3 +24,4 @@ Topics: java, swing, gui-applications, desktop-apps, oop, java-projects, product
 | **17** | **Quote Generator** | Desktop GUI app that displays random inspirational tech quotes. (`JFrame`, `Random`, UI card layout) |
 | **18** | **Countdown Timer** | Desktop event tracking timer app. (`JFrame`, `Timer`, Time logic) |
 | **19** | **Temperature Converter** | Desktop utility app to convert temperature values across units. (`JFrame`, `JComboBox`, Math formulas) |
+| **20** | **Hash Generator** | Desktop developer security utility to generate MD5 and SHA hashes. (`JFrame`, `MessageDigest`) |
