@@ -43,7 +43,7 @@ public class WordCounterApp extends JFrame {
         });
 
         // Stats Display Footer Label
-        statsLabel = new JLabel("Words: 0 | Characters: 0 | Sentences: 0", JLabel.CENTER);
+        statsLabel = new JLabel("Words: 0 | Characters: 0", JLabel.CENTER);
         statsLabel.setForeground(Color.WHITE);
         statsLabel.setFont(new Font("Arial", Font.BOLD, 11));
         statsLabel.setBorder(BorderFactory.createEmptyBorder(10, 10, 15, 10));
@@ -56,19 +56,15 @@ public class WordCounterApp extends JFrame {
     private void updateStats() {
         String text = textArea.getText().trim();
         if (text.isEmpty()) {
-            statsLabel.setText("Words: 0 | Characters: 0 | Sentences: 0");
+            statsLabel.setText("Words: 0 | Characters: 0");
             return;
         }
 
         int charCount = text.length();
-        int charNoSpaces = text.replace(" ", "").replace("\n", "").length();
-        
         String[] words = text.split("\\s+");
         int wordCount = words.length;
-        
-        int sentenceCount = text.split("[.!?]+").length;
 
-        statsLabel.setText(String.format("Words: %d | Chars: %d (No Spaces: %d)", wordCount, charCount, charNoSpaces));
+        statsLabel.setText(String.format("Words: %d | Characters: %d", wordCount, charCount));
     }
 
     public static void main(String[] args) {
