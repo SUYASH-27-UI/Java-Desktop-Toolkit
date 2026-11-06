@@ -28,3 +28,4 @@ Topics: java, swing, gui-applications, desktop-apps, oop, java-projects, product
 | **21** | **Word Counter** | Desktop text analysis utility to track words and characters in real-time. (`JFrame`, `KeyAdapter`) |
 | **22** | **Caesar Cipher** | Desktop text encryption and decryption utility tool. (`JFrame`, ASCII shifting logic) |
 | **23** | **Password Generator** | Desktop security utility to generate customized random passwords. (`JFrame`, `Random`, Checkboxes) |
+| **24** | **Tip Calculator** | Desktop financial utility to calculate tips and split bills among groups. (`JFrame`, Financial math) |
