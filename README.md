@@ -30,3 +30,4 @@ Topics: java, swing, gui-applications, desktop-apps, oop, java-projects, product
 | **23** | **Password Generator** | Desktop security utility to generate customized random passwords. (`JFrame`, `Random`, Checkboxes) |
 | **24** | **Tip Calculator** | Desktop financial utility to calculate tips and split bills among groups. (`JFrame`, Financial math) |
 | **25** | **Stopwatch & Laps** | Desktop stopwatch utility with lap tracking and controls. (`JFrame`, `Timer`) |
+| **26** | **Unit Converter** | Desktop utility app to convert length units with scaling math. (`JFrame`, `JComboBox`) |
