@@ -31,3 +31,4 @@ Topics: java, swing, gui-applications, desktop-apps, oop, java-projects, product
 | **24** | **Tip Calculator** | Desktop financial utility to calculate tips and split bills among groups. (`JFrame`, Financial math) |
 | **25** | **Stopwatch & Laps** | Desktop stopwatch utility with lap tracking and controls. (`JFrame`, `Timer`) |
 | **26** | **Unit Converter** | Desktop utility app to convert length units with scaling math. (`JFrame`, `JComboBox`) |
+| **27** | **Currency Converter** | Desktop financial utility to convert amounts across currencies. (`JFrame`, `JComboBox`) |
