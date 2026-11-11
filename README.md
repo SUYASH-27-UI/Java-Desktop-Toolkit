@@ -33,3 +33,4 @@ Topics: java, swing, gui-applications, desktop-apps, oop, java-projects, product
 | **26** | **Unit Converter** | Desktop utility app to convert length units with scaling math. (`JFrame`, `JComboBox`) |
 | **27** | **Currency Converter** | Desktop financial utility to convert amounts across currencies. (`JFrame`, `JComboBox`) |
 | **28** | **Discount Calculator** | Desktop financial utility to calculate shopping discounts. (`JFrame`, Math logic) |
+| **29** | **Compound Interest Calculator** | Desktop financial utility to calculate investment growth. (`JFrame`, Math formula) |
