@@ -35,3 +35,4 @@ Topics: java, swing, gui-applications, desktop-apps, oop, java-projects, product
 | **28** | **Discount Calculator** | Desktop financial utility to calculate shopping discounts. (`JFrame`, Math logic) |
 | **29** | **Compound Interest Calculator** | Desktop financial utility to calculate investment growth. (`JFrame`, Math formula) |
 | **30** | **Loan EMI Calculator** | Desktop financial utility to calculate loan EMIs. (`JFrame`, Financial math) |
+| **31** | **Sticky Notes Manager** | Desktop productivity utility to manage quick notes. (`JFrame`, `JList`) |
