@@ -38,3 +38,4 @@ Topics: java, swing, gui-applications, desktop-apps, oop, java-projects, product
 | **31** | **Sticky Notes Manager** | Desktop productivity utility to manage quick notes. (`JFrame`, `JList`) |
 | **32** | **Pomodoro Timer** | Desktop productivity timer for focus sessions. (`JFrame`, `Timer`) |
 | **33** | **Todo List Manager** | Desktop productivity utility to track daily tasks. (`JFrame`, `JList`) |
+| **34** | **BMI Calculator** | Desktop health utility to compute body mass index and category. (`JFrame`, Math formula) |
