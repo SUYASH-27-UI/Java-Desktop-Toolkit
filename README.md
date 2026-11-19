@@ -41,3 +41,4 @@ Topics: java, swing, gui-applications, desktop-apps, oop, java-projects, product
 | **34** | **BMI Calculator** | Desktop health utility to compute body mass index and category. (`JFrame`, Math formula) |
 | **35** | **Alarm Clock** | Desktop utility app to set alarms and track live time. (`JFrame`, `Timer`) |
 | **36** | **Quote Generator** | Desktop utility app to display random inspirational tech quotes. (`JFrame`, `Random`) |
+| **37** | **Number Guessing Game** | Desktop interactive number guessing game with attempt tracking. (`JFrame`, `Random`) |
