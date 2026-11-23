@@ -45,3 +45,4 @@ Topics: java, swing, gui-applications, desktop-apps, oop, java-projects, product
 | **38** | **Text Hash Generator** | Desktop security utility to compute SHA-256, SHA-1, and MD5 digests. (`JFrame`, `MessageDigest`) |
 | **39** | **Temperature Converter** | Desktop utility app to convert Celsius, Fahrenheit, and Kelvin temperatures. (`JFrame`, `JComboBox`) |
 | **40** | **Password Strength Tool** | Desktop security utility to generate strong passwords and evaluate strength. (`JFrame`, `SecureRandom`) |
+| **41** | **Stopwatch & Lap Tracker** | Desktop time-tracking utility with tenths-of-a-second precision and lap history. (`JFrame`, `Timer`) |
