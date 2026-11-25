@@ -47,3 +47,4 @@ Topics: java, swing, gui-applications, desktop-apps, oop, java-projects, product
 | **40** | **Password Strength Tool** | Desktop security utility to generate strong passwords and evaluate strength. (`JFrame`, `SecureRandom`) |
 | **41** | **Stopwatch & Lap Tracker** | Desktop time-tracking utility with tenths-of-a-second precision and lap history. (`JFrame`, `Timer`) |
 | **42** | **Data Size Converter** | Desktop storage utility to convert Bytes, KB, MB, GB, and TB in binary or decimal base. (`JFrame`, `JComboBox`) |
+| **43** | **Text Stats Analyzer** | Desktop writing utility to count words, lines, characters, and reading time. (`JFrame`, `JTextArea`) |
