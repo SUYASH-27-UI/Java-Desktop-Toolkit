@@ -49,3 +49,4 @@ Topics: java, swing, gui-applications, desktop-apps, oop, java-projects, product
 | **42** | **Data Size Converter** | Desktop storage utility to convert Bytes, KB, MB, GB, and TB in binary or decimal base. (`JFrame`, `JComboBox`) |
 | **43** | **Text Stats Analyzer** | Desktop writing utility to count words, lines, characters, and reading time. (`JFrame`, `JTextArea`) |
 | **44** | **Tip & Bill Splitter** | Desktop finance utility to compute tip, total bill, and per-person split. (`JFrame`, Split math) |
+| **45** | **Roman Numeral Converter** | Desktop utility to convert integers (1-3999) and Roman numerals bidirectionally. (`JFrame`, Numeral parsing) |
